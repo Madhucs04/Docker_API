@@ -1,0 +1,25 @@
+{
+  "name": "docker-api",
+  "version": "1.0.0",
+  "description": "Docker API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhucs04/docker-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madhucs04/docker-api/issues"
+  },
+  "homepage": "https://github.com/Madhucs04/docker-api#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "cors": "2.8.5"
+  }
+}
